@@ -256,7 +256,7 @@ IIFE
 (function (name) {
   console.log('Hello, ' + name);
 })('Hasan');
-// IIFEs create a private scope and run immediately.
+// IIFEs (Immediately Invoked Function Expression) create a private scope and run immediately.
 /*
 ==================================================
 Hoisting differences
@@ -301,6 +301,7 @@ const user = {
   arrowMethod: () => {
     console.log('arrow:', this.name);
   }
+  
 };
 user.regularMethod();
 user.arrowMethod();

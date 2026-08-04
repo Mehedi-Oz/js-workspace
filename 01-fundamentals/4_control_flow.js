@@ -2,30 +2,6 @@
 ==================================================
 CONTROL FLOW: if, else if, else, switch, loops of decision making
 ==================================================
-
-This file is organized like a study sheet and practice file.
-It includes:
-- Control flow overview
-- Truthy and falsy values
-- Comparison operators
-- Logical operators
-- if, if...else, else if
-- Nested if
-- switch, break, default, fall-through
-- switch vs if
-- Early return
-- Ternary operator
-- Common mistakes
-- Output prediction questions with answers
-- 20+ practice problems
-- 20+ viva questions with detailed answers
-- Things to remember
-
-How to use this file:
-1. Read each concept section.
-2. Run the examples.
-3. Try the practice questions before reading answers.
-4. Use viva questions for interview revision.
 */
 
 /*

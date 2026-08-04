@@ -156,8 +156,7 @@ console.log(city); // Dhaka
 Hoisting Impact
 ==================================================
 
-Hoisting is JavaScript's behavior of moving declarations to the
-top of their scope before execution.
+Hoisting refers to JavaScript giving higher precedence to the declaration of variables, classes, and functions during a program’s execution.
 
 The behavior differs for `var`, `let`, and `const`.
 */
