@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Call Notes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="form-container">
+    <form class="call-form">
+      <h2>New Call</h2>
+
+      <label for="image">Image URL</label>
+      <input type="text" id="image" name="image">
+
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name">
+
+      <label for="hometown">Home Town</label>
+      <input type="text" id="hometown" name="hometown">
+
+      <label for="purpose">Purpose</label>
+      <input type="text" id="purpose" name="purpose">
+
+      <label>Category</label>
+
+      <div class="category-options">
+        <label>
+          <input type="radio" name="category" value="emergency">
+          <span class="category emergency">Emergency</span>
+        </label>
+
+        <label>
+          <input type="radio" name="category" value="important">
+          <span class="category important">Important</span>
+        </label>
+
+        <label>
+          <input type="radio" name="category" value="urgent">
+          <span class="category urgent">Urgent</span>
+        </label>
+
+        <label>
+          <input type="radio" name="category" value="no-rush">
+          <span class="category no-rush">No Rush</span>
+        </label>
+      </div>
+
+      <div class="form-buttons">
+        <button type="submit">Create Reminder</button>
+        <button type="button" class="close-form">Close</button>
+      </div>
+    </form>
+  </div>
+
+  <div class="note-container">
+
+    <div class="left-icons">
+      <button class="plus-button" id="add-note">+</button>
+      <button class="move-button" data-direction="up">↑</button>
+      <button class="move-button" data-direction="down">↓</button>
+    </div>
+
+    <div class="stack">
+    </div>
+
+    <div class="right-colors">
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
